@@ -13,3 +13,13 @@ div {
 /* Every H2 Element In The Html File */
 h2 {
 }
+
+h1{
+    font-weight: bold;
+    color: green;
+}
+
+.you{
+    color: chartreuse;
+    font-size: medium;
+}
