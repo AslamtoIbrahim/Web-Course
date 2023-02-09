@@ -1,25 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div{
+        div {
             width: 400px;
             margin: 0 auto;
             margin-top: 20px;
-            border-color: blue red;
-            border-width: 5px;
+            border-color: red rgb(69, 170, 252);
+            border-width: 3px;
             border-style: solid;
             padding: 15px;
         }
-        span{
-            
+
+        span {
+            background-color: rgb(69, 170, 252);
+            padding: 5px 15px;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 10px;
+            left: 160px;
+            border-right: 3px solid red;
+        }
+
+        .bottom-left {
+            position: absolute;
+            top: 110px;
+            left: 160px;
+            border-right: 3px solid red;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 10px;
+            right: 160px;
+            border-left: 3px solid red;
+        }
+
+        .bottom-right {
+            position: absolute;
+            top: 110px;
+            right: 160px;
+            border-left: 3px solid red;
         }
     </style>
 </head>
+
 <body>
     <div>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, sed. Ea ipsum
@@ -29,6 +61,7 @@
         <span class="bottom-left">2</span>
         <span class="top-right">3</span>
         <span class="bottom-right">4</span>
-      </div>
+    </div>
 </body>
+
 </html>
