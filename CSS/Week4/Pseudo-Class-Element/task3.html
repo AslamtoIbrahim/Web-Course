@@ -26,12 +26,31 @@
             padding: 10px;
             width: 600px;
             float: left;
+            border-left: 5px solid blueviolet;
             background-color: #eee;
 
         }
          
-        .detail::after{
-            
+        /* .detail::after{
+            content: "";
+            position: absolute;
+            width: 5px;
+            background-color: blueviolet;
+            height: 100%;
+            right: -10px;
+            top: 0;
+        } */
+        .detail::before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: -25px;
+            width: 0;
+            height: 0;
+            margin-top: -10px;
+            border-style: solid;
+            border-width: 10px;
+            border-color: transparent blueviolet transparent transparent;
         }
     </style>
 </head>
